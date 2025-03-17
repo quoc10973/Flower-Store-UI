@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import App from "../App";
 import HomePage from "../pages/HomePage";
+import ListingPage from "../pages/ListingPage";
 
 const AppRoutes = () => {
     return (
@@ -8,6 +9,7 @@ const AppRoutes = () => {
             {/* Layout chính */}
             <Route path="/" element={<App />}>
                 <Route index element={<HomePage />} />
+                <Route path="/listing" element={<ListingPage />} />
             </Route>
         </Routes>
     );

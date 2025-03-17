@@ -1,4 +1,5 @@
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 const FlowerTypes = ({ flowers, type }) => {
     return (
         <div className="mx-auto max-w-6xl p-3">
@@ -18,9 +19,12 @@ const FlowerTypes = ({ flowers, type }) => {
             </div>
 
             <div className="flex justify-center mt-4 mb-2">
-                <button className="bg-red-500 text-white text-sm px-8 py-1.5 rounded-full font-semibold tracking-wide hover:bg-red-600 transition duration-300 shadow-md">
+                <Link
+                    to={`/listing?category=${encodeURIComponent(type)}`}
+                    className="bg-red-500 text-white text-sm px-8 py-1.5 rounded-full font-semibold tracking-wide hover:bg-red-600 transition duration-300 shadow-md"
+                >
                     Xem thêm <ChevronRightIcon className="h-5 w-5 inline-block" />
-                </button>
+                </Link>
             </div>
         </div>
     );
