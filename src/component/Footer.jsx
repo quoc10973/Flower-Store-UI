@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 {/* Logo và giới thiệu */}
                 <div>
-                    <h2 className="text-xl font-bold text-gray-900">Flower Shop</h2>
+                    <h2 className="text-xl font-bold text-gray-900">Fleurish Florist</h2>
                     <p className="text-sm mt-2 text-gray-700">Chuyên cung cấp các loại hoa tươi, giao hàng tận nơi với chất lượng tốt nhất.</p>
                     <p className="text-sm mt-2 text-gray-700">Chúng tôi cam kết mang đến những bông hoa đẹp nhất cho những dịp quan trọng của bạn.</p>
                 </div>
@@ -12,8 +12,8 @@ const Footer = () => {
                 {/* Thông tin liên hệ */}
                 <div>
                     <h3 className="text-lg font-semibold text-gray-900">Liên hệ</h3>
-                    <p className="text-sm mt-2 text-gray-700">📍 Địa chỉ: 123 Đường Hoa, Quận 1, TP.HCM</p>
-                    <p className="text-sm text-gray-700">📞 Điện thoại: 0123 456 789</p>
+                    <p className="text-sm mt-2 text-gray-700">📍 Địa chỉ: Hồ Chí Minh City, Việt Nam</p>
+                    <p className="text-sm text-gray-700">📞 Điện thoại: 0912388108</p>
                     <p className="text-sm text-gray-700">✉ Email: support@flowershop.com</p>
                     <p className="text-sm text-gray-700">⏰ Giờ làm việc: 8:00 - 20:00 (Thứ 2 - Chủ Nhật)</p>
                 </div>
@@ -35,18 +35,17 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold text-gray-900">Theo dõi chúng tôi</h3>
                     <div className="flex flex-col space-y-2 mt-2">
-                        <a href="#" className="text-gray-700 hover:text-gray-900">🌐 Facebook</a>
-                        <a href="#" className="text-gray-700 hover:text-gray-900">📸 Instagram</a>
-                        <a href="#" className="text-gray-700 hover:text-gray-900">🐦 Twitter</a>
-                        <a href="#" className="text-gray-700 hover:text-gray-900">📌 Pinterest</a>
-                        <a href="#" className="text-gray-700 hover:text-gray-900">🎥 YouTube</a>
+                        <a href="https://www.facebook.com/61574471211051" className="text-gray-700 hover:text-gray-900">🌐 Facebook</a>
+                        <a href="https://www.instagram.com/fleurish.saigon" className="text-gray-700 hover:text-gray-900">📸 Instagram</a>
+                        <a href="https://www.tiktok.com/@fleurish.florist" className="text-gray-700 hover:text-gray-900"> 🎵  Tiktok </a>
+
                     </div>
                 </div>
             </div>
 
             {/* Copyright */}
             <div className="text-center text-sm border-t border-gray-300 mt-6 pt-4 text-gray-700">
-                © 2025 Flower Shop. All rights reserved. Thiết kế bởi <span className="text-gray-900 font-bold">Flower Team</span>.
+                © 2025 Flower Shop. All rights reserved. Design by <span className="text-gray-900 font-bold">Fleurish Florist</span>.
             </div>
         </footer>
     );
