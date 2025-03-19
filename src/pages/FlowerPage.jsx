@@ -62,7 +62,7 @@ const FlowerPage = ({ flower }) => {
                     <div className="flex-1">
                         <h1 className="text-2xl font-bold text-gray-800">{selectedFlower?.name ?? 'Hoa khuyến mãi'}</h1>
 
-                        <p className="text-xl font-bold mt-1.5 ml-1 text-red-500">{selectedFlower?.discountPrice ?? '250.000'} đ</p>
+                        <p className="text-xl font-bold mt-1.5 ml-1 text-red-500">{selectedFlower?.price ?? '250.000'} đ</p>
                         {/* Hiển thị rating bằng ngôi sao */}
                         <div className="flex items-center mt-1 text-lg">
                             {renderStars(selectedFlower.rating)}
@@ -91,7 +91,7 @@ const FlowerPage = ({ flower }) => {
                                 Thêm vào giỏ
                             </button>
                             <button className="px-4 py-2 bg-red-500 text-white text-sm font-semibold rounded-lg">Mua ngay</button>
-                            <button className="px-4 py-2 border border-green-500 text-green-500 text-sm font-semibold rounded-lg">Gọi ngay: 1800 6353</button>
+                            <button className="px-4 py-2 border border-green-500 text-green-500 text-sm font-semibold rounded-lg">Gọi ngay: 0912388108</button>
                         </div>
                     </div>
                 </div>
